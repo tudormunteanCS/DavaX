@@ -1,0 +1,8 @@
+I have a task at a Database Management systems training that implies this: designing a data base to with core functionality for employees to track time worked per week. This is the flow: The employee(employee table) must complete a form which includes the following:
+1.Project code he is working on (table with project codes)
+2.Task Details (one of 7 options)
+3.Time type (one of 8 options)
+4.Location (one of 4 options)
+5.Relocated Country (a country so needed country table)
+6.Selected Dates(a maximum one week period)
+7.Quantity (a number describing the number of hours worked per day)
