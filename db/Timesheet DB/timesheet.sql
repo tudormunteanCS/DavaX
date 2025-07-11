@@ -22,6 +22,7 @@ CREATE TABLE Employees(
 	employee_email VARCHAR(100) NOT NULL UNIQUE
 )
 
+
 CREATE TABLE Projects(
 	project_id INT IDENTITY(1,1) PRIMARY KEY,
 	project_code VARCHAR(100) NOT NULL UNIQUE
@@ -47,6 +48,8 @@ CREATE TABLE Countries(
 	country_name VARCHAR(100) NOT NULL
 )
 
+select * from Countries
+
 --Task assigned to project many to many mapping
 CREATE TABLE ProjectTasks(
 	project_id INT,
@@ -55,6 +58,8 @@ CREATE TABLE ProjectTasks(
 	FOREIGN KEY (project_id) REFERENCES Projects(project_id),
 	FOREIGN KEY (task_id) REFERENCES Tasks(task_id)
 )
+
+select * from ProjectTasks
 
 CREATE TABLE TimesheetEntries(
 	entry_id INT IDENTITY(1,1) PRIMARY KEY,

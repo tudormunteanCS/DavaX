@@ -1,0 +1,38 @@
+PL/SQL
+
+Logging framework
+
+debug_log table
+log_id
+log_time
+module_name?
+line_no
+log_message
+session_id default
+
+debug_utils package niveluri de logare (info/warn,err)
+debug_mode var (true/false) flag global
+
+procedures: 
+enable/disable_debug
+log_msg(msg)
+log_variable(name,value)
+log_error(proc?,err)
+
+
+Partea practica -> utilizarea logging framework
+
+procedura adjust_salaries_by_commision(commision)
+for each employee
+    if commision != NULL
+             salary = salary * commision
+    else
+             salary = salary * 0.02
+
+citire salare/calcul/update log message if debug_mode IS TRUE
+
+
+
+
+
+
