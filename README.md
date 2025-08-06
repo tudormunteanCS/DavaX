@@ -21,4 +21,8 @@ Because each project is small but powerful 💥, I've kept everything neatly org
 - ✅ Worked on an ETL project where integrated 3 sources of data (Confluence leaves, Timesheets, Meeting Attendances) using Python scripts and Pandas 🐼
 - ✅ Python from Basic Algorithms -> Advanced topics such as concurrency, async functions, event loops, Global Interpretor Lock (GIL), Garbage Collector,
 - ✅ Python Authentication using HTTPBasicAuth / HTTPDigestAuth / Bearer Auth using JWT tokens
+- ✅ Python pydantic Basemodels
 
+### Month 3 LLM Integration & OpenAI API
+- ✅ Agent🕵 for currency convertor that could answer prompts like this: "How many Euros were 2400 RONS in 2022-11-28?". Used OpenAI function calling, pydantic and integrated
+    EchangeRata.host API for historical conversion rates
