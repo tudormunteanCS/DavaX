@@ -102,6 +102,21 @@ def test_trie():
     assert(trie.search("32") == False)
 
 
+
+class A:
+    def foo(self): print("A")
+
+class B(A):
+    def foo(self): print("B")
+
+class C(A):
+    def foo(self): print("C")
+
+class D(B, C):
+    pass
+
+D().foo()  # Va afișa "B", conform MRO
+
 if __name__ == '__main__':
     test_check_is_prime()
     test_check_string_is_palindrome()

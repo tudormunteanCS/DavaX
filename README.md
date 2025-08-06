@@ -11,7 +11,7 @@ Because each project is small but powerful 💥, I've kept everything neatly org
 ## 📅 Timeline Highlights
  
 ### Month1 - 🧱 Generic RDBMS & PLSQL & ETL
-- ✅ Worked with SQL (Microsoft SQL Server & Oracle)
+- ✅ Worked with SQL (Microsoft SQL Server & Oracle)gi
 - ✅ Created a logging framework
 - ✅ Created a Timesheet database where each employee's time worked can be tracked
 - ✅ Took some Prompt Engineering trainings
