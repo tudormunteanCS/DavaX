@@ -1,0 +1,31 @@
+services:
+  # ────────────────────────────
+  backend:
+    build:
+      context: algorithms_API          # folder that contains your backend Dockerfile
+      dockerfile: Dockerfile
+    container_name: algo-backend
+    ports:
+      - "5050:5050"               # host → container
+    environment:
+      # add anything else (e.g. FLASK_ENV=production) if you need it
+      - PYTHONUNBUFFERED=1
+    volumes:
+      # Persist the SQLite file between container restarts
+      - sqlite-data:/app/db        # /app/identifier.sqlite lives here
+    restart: unless-stopped
+
+  # ────────────────────────────
+  frontend:
+    build:
+      context: ./frontend algorithms/algorithms         # folder that contains your frontend Dockerfile
+      dockerfile: Dockerfile
+    container_name: algo-frontend
+    ports:
+      - "8080:80"                 # browse to http://localhost:8080
+    depends_on:
+      - backend                   # wait for API container
+    restart: unless-stopped
+
+volumes:
+  sqlite-data:
