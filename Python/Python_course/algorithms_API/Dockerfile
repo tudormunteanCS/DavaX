@@ -24,5 +24,5 @@ RUN mkdir -p db && touch db/identifier.sqlite
 
 
 EXPOSE 5050
-ENV FLASK_APP=algo:create_app
+#ENV FLASK_APP=algo:create_app
 CMD ["gunicorn", "-b", "0.0.0.0:5050", "algo:app"]

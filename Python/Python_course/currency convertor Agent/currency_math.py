@@ -43,11 +43,7 @@ def currency_converter(query: Query) -> float:
         result = data.get("result")
         return result
 
-
-if __name__ == "__main__":
-    prompt = "How many RON were 1 EURO at 2023-11-26?"
-    api_key = os.getenv("OPEN_AI_API_KEY")
-    # used for chat.completions.create not documented yet in openAI
+# used for chat.completions.create not documented yet in openAI
     # functions = [
     #     {
     #         "type": "function",
@@ -77,6 +73,9 @@ if __name__ == "__main__":
     #         "strict": True
     #     }
     # ]
+if __name__ == "__main__":
+    prompt = "How many RON were 1 EURO at 2023-11-26?"
+    api_key = os.getenv("OPEN_AI_API_KEY")
 
     tools = [{
         "type": "function",

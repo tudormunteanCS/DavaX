@@ -1,0 +1,42 @@
+[
+  {
+    "title": "The Hobbit",
+    "resume": "In this fantasy adventure, Bilbo Baggins, a hobbit fond of comfort, joins Gandalf and thirteen dwarves on a quest to reclaim treasure from the dragon Smaug. Along the way, Bilbo discovers bravery and wit, proving that even ordinary people can achieve extraordinary feats when friendship and courage are at stake."
+  },
+  {
+    "title": "To Kill a Mockingbird",
+    "resume": "This classic work of literary fiction and social justice follows Scout Finch as she grows up in the racially divided South, where her father Atticus defends a Black man wrongly accused of assault. Through Scout’s eyes, the story explores injustice, empathy, and moral courage."
+  },
+  {
+    "title": "1984",
+    "resume": "A dystopian political fiction, the novel portrays Winston Smith living under the oppressive rule of Big Brother in a society where surveillance and propaganda crush freedom. His quiet rebellion raises timeless questions about truth, privacy, and individuality."
+  },
+  {
+    "title": "Pride and Prejudice",
+    "resume": "A witty romance and classic of English literature, the story follows Elizabeth Bennet as she navigates family pressures and social expectations while clashing with the proud Mr. Darcy. Misunderstandings give way to love in a tale of class, reputation, and personal growth."
+  },
+  {
+    "title": "Moby-Dick",
+    "resume": "Blending adventure and philosophical fiction, this American classic follows Ishmael as he joins Captain Ahab’s obsessive hunt for the white whale, Moby Dick. The voyage becomes a meditation on obsession, fate, and humanity’s struggle against nature’s power."
+  },
+  {
+    "title": "The Great Gatsby",
+    "resume": "Set in the Jazz Age, this modernist tragedy and classic of American literature is told through Nick Carraway, who witnesses the rise and fall of Jay Gatsby. Gatsby throws lavish parties in pursuit of Daisy Buchanan, revealing illusions, love, and the emptiness of the American Dream."
+  },
+  {
+    "title": "Brave New World",
+    "resume": "This dystopian science fiction and social commentary imagines a futuristic society engineered for comfort and conformity, where Bernard Marx questions the cost of stability. The novel critiques technology, consumerism, and the loss of individuality."
+  },
+  {
+    "title": "Frankenstein",
+    "resume": "A cornerstone of gothic horror and early science fiction, the story follows Victor Frankenstein who creates a living being from science, only to abandon it in fear. The creature seeks acceptance but finds rejection, raising questions about responsibility, ambition, and the nature of humanity."
+  },
+  {
+    "title": "The Catcher in the Rye",
+    "resume": "This modern classic of psychological and coming-of-age fiction follows Holden Caulfield, disillusioned with the world of 'phonies,' as he wanders New York City after leaving school. His inner struggles reveal themes of identity, innocence, and alienation."
+  },
+  {
+    "title": "Jane Eyre",
+    "resume": "A gothic romance and classic of feminist literature, the novel tells the story of Jane Eyre, an orphaned governess who seeks independence and love while facing hardship and moral dilemmas. Her journey emphasizes resilience, integrity, and the search for true belonging."
+  }
+]
