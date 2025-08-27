@@ -11,5 +11,7 @@
 ## Toxic Language Detection: Guardrails
 
 
-Workflow: User asks the chatbot to recommend books based on a topic or genre. The chatbot uses the RAG workflow to retrieve relevant book information from Qdrant vector store and generates a response using gpt-5
+Workflow: User asks the chatbot to recommend books based on a topic or genre. The chatbot uses the RAG workflow to retrieve relevant book information from Qdrant vector store, also uses Tool calling using OpenAI's functionality and generates a response using gpt-5
+
+![img.png](img.png)
 
